@@ -6,6 +6,7 @@
 [diff]
   mnemonicprefix = true
   renames = copies
+  context = 2
 [push]
   default = simple
 [status]
