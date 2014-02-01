@@ -15,7 +15,7 @@
   hobnail = push --force
   pluff = pull --ff-only
   meffe = merge --ff-only
-  liph = log --graph --oneline --decorate --branches
+  liph = log --graph --branches --format='%C(auto)%h%d %C(cyan)%an%C(reset) %s'
   brout = checkout -b
   dead = diff HEAD
   died = diff --cached
