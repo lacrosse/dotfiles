@@ -16,6 +16,7 @@
   pluff = pull --ff-only
   meffe = merge --ff-only
   liph = log --graph --branches --format='%C(auto)%h%d %C(cyan)%an%C(reset) %s'
+  aleph = log --graph --all --format='%C(auto)%h%d %C(cyan)%an%C(reset) %s'
   brout = checkout -b
   dead = diff HEAD
   died = diff --cached
