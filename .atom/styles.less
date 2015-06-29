@@ -1,0 +1,27 @@
+@tab-height: 2.3em;
+
+// body {
+//   -webkit-font-feature-settings: "liga" 1;
+//   font-feature-settings: "liga" 1;
+//   text-rendering: optimizeLegibility;
+// }
+//
+// atom-text-editor {
+//   .line.cursor-line {
+//     -webkit-font-feature-settings: normal;
+//     font-feature-settings: normal;
+//     text-rendering: optimizeSpeed;
+//   }
+// }
+
+.tab-bar {
+  height: @tab-height;
+  .tab {
+    height: @tab-height;
+    line-height: @tab-height;
+    .close-icon {
+      height: @tab-height;
+      line-height: @tab-height;
+    }
+  }
+}
