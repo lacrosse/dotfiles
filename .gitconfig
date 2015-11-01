@@ -1,21 +1,22 @@
+[blame]
+  showEmail = true
 [diff]
   mnemonicprefix = true
   renames = copies
   context = 2
 [push]
-  default = simple
+  default = current
 [status]
   showUntrackedFiles = all
 [alias]
   hobnail = push --force
   pluff = pull --ff-only
   meffe = merge --ff-only
-  liph = log --graph --branches --format='%C(auto)%h%d %C(cyan)%an%C(reset) %s'
-  aleph = log --graph --all --format='%C(auto)%h%d %C(cyan)%an%C(reset) %s'
+  liph = log --graph --branches --format='%C(auto)%h%d %G? %C(cyan)%an%C(reset) %s'
+  aleph = log --graph --all --format='%C(auto)%h%d %G? %C(cyan)%an%C(reset) %s'
   brout = checkout -b
-  dead = diff HEAD
-  died = diff --cached
-  addent = add --intent-to-add
+  caff = diff --cached
+  heff = diff HEAD
 [rerere]
   enabled = true
 [instaweb]
