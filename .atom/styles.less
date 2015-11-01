@@ -1,27 +1,13 @@
-@tab-height: 2.3em;
+// Ligatures support
+.ligatures-on() { text-rendering: optimizeLegibility; }
+.ligatures-off() { text-rendering: optimizeSpeed; }
 
-// body {
-//   -webkit-font-feature-settings: "liga" 1;
-//   font-feature-settings: "liga" 1;
-//   text-rendering: optimizeLegibility;
-// }
-//
-// atom-text-editor {
-//   .line.cursor-line {
-//     -webkit-font-feature-settings: normal;
-//     font-feature-settings: normal;
-//     text-rendering: optimizeSpeed;
-//   }
-// }
+atom-text-editor {
+  .ligatures-on;
 
-.tab-bar {
-  height: @tab-height;
-  .tab {
-    height: @tab-height;
-    line-height: @tab-height;
-    .close-icon {
-      height: @tab-height;
-      line-height: @tab-height;
+  .source {
+    .regexp {
+      .ligatures-off;
     }
   }
 }
