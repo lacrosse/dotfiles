@@ -6,16 +6,15 @@ atom-text-editor {
   .ligatures-on;
 
   .lines {
-    .regexp {
-      .ligatures-off;
-
-      .embedded {
-        .ligatures-on;
-      }
-    }
-
+    .regexp,
+    .ledger,
+    .yaml,
     .null-grammar {
       .ligatures-off;
+    }
+
+    .regexp .embedded {
+      .ligatures-on;
     }
   }
 }
