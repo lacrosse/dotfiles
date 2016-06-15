@@ -4,6 +4,7 @@
   mnemonicprefix = true
   renames = copies
   context = 2
+  compactionHeuristic = true
 [push]
   default = current
 [status]
