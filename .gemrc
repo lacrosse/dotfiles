@@ -1,3 +1,4 @@
 install: --no-doc
 update: --no-doc
-open: -e atom
+open: -e code
+:verbose: true
