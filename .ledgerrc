@@ -1,3 +1,4 @@
 --download
 --price-db prices.db
 --flat
+--date-format %Y-%m-%d
